@@ -1,0 +1,149 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #b21b04);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  align-items: center;
+  display: flex;
+  gap: 0em 10rem;
+  justify-content: center;
+  padding: 2rem 1rem 0rem 1rem;
+  width: 100%;
+  
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.btn {
+  font-size: 1.5rem;
+}
+.btn>svg {
+  height: 2rem;
+  width: 2rem;
+}
+
+.fc {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  width: 40vw;
+  margin: 0;
+  padding: 0;
+  flex-shrink: 3;
+}
+.iphone {
+  height: 90vh;
+}
+
+.col>img {
+  height: 50px;
+}
+.doggy{
+  display: block;
+  text-align: center;
+}
+.doggy>img {
+  height: 110px;
+  border-radius: 50%;
+  margin-top: 5rem;
+}
+.doggy>p {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+.container>h2, .row {
+  text-align: center;
+}
+#testimonial {
+  background-color: #f3f2f2;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+.card-3 {
+  background-color: rgb(39, 39, 39) !important;
+  color: rgb(245, 245, 245) !important;
+  border-color: rgb(39, 39, 39) !important;
+}
+.button-3 {
+  color: rgb(39, 39, 39); 
+  background-color: rgb(245, 245, 245); 
+  border-color: rgb(39, 39, 39);
+}
+#pricing {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+
+@media (min-width: 1440px) {
+  .fc {
+    font-size: 3.5rem;
+  }
+}
+
+@media (min-width: 435px) and (max-width: 970px) {
+  .gradient-background {
+    /* flex-wrap: wrap; */
+    gap: 0 2rem;
+  }
+  .fc {
+    width: 100vw;
+    font-size: 2.4rem;
+  }
+  .btn {
+    font-size: 1rem;
+  }
+  .btn>svg {
+    height: 1rem;
+    width: 1rem;
+  }
+
+  .gradient-background>p {
+    padding-bottom: 1.2rem;
+  }
+  
+}
+
+@media (max-width: 504px) {
+  .gradient-background {
+    flex-wrap: wrap;
+  }
+  .fc {
+    font-size: 1.8rem;
+    width: 100vw;
+  }
+  .gradient-background>p {
+    order: 1;
+  }
+  .gradient-background>p>button {
+    width: 90vw;
+  }
+  .btn {
+    font-size: 1rem;
+  }
+  .btn>svg {
+    height: 1rem;
+    width: 1rem;
+  }
+  .gradient-background>p {
+    padding-bottom: 1.2rem;
+  }
+  
+}
