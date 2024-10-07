@@ -51,7 +51,7 @@
 }
 
 .col>img {
-  height: 50px;
+  height: 2rem;
 }
 .doggy{
   display: block;
@@ -143,7 +143,12 @@
   .gradient-background>p {
     padding-bottom: 1.2rem;
   }
-  
+  .col1>img {
+    height: 1.5rem;
+  }
+  .col1 {
+    width: 100vw;
+  }
 }
 
 @media (max-width: 504px) {
@@ -173,7 +178,10 @@
   .gradient-background img {
     height: 40vh;
   }
-  .col>img {
-    height: 0.5rem;
+  .col1>img {
+    height: 1.5rem;
+  }
+  .col1 {
+    width: 100%;
   }
 }
