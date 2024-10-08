@@ -123,7 +123,7 @@
   }
 }
 
-@media (min-width: 561px) and (max-width: 970px) {
+@media (min-width: 768px) and (max-width: 970px) {
   .gradient-background {
     /* flex-wrap: wrap; */
     gap: 0 2rem;
@@ -151,19 +151,19 @@
   }
 }
 
-@media (max-width: 561px) {
+@media (max-width: 768px) {
   .gradient-background {
     flex-wrap: wrap;
   }
   .fc {
     font-size: 1.8rem;
-    width: 100vw;
+    width: 60vw;
   }
   .gradient-background>p {
     order: 1;
   }
   .gradient-background>p>button {
-    width: 90vw;
+    width: 90%;
   }
   .btn {
     font-size: 1rem;
