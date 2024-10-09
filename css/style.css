@@ -49,9 +49,8 @@
 }
 .iphone {
   height: 90vh;
-  max-height: 80%; /* Limits the height to the container */
-  width: auto; /* Ensures the width adjusts automatically to maintain aspect ratio */
-  object-fit: contain;
+  max-width: 50rem; /* Ensures it doesn't exceed the container width */
+  object-fit: cover;
 }
 
 .col>img {
