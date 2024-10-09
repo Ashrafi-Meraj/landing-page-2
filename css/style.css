@@ -4,6 +4,7 @@
   animation: gradient-animation 18s ease infinite;
   align-items: center;
   display: flex;
+  flex-wrap: wrap;
   gap: 0em 10rem;
   justify-content: center;
   padding: 2rem 1rem 0rem 1rem;
