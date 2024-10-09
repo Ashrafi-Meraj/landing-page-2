@@ -49,8 +49,7 @@
 }
 .iphone {
   height: 90vh;
-  max-width: 30rem; /* Ensures it doesn't exceed the container width */
-  object-fit: cover;
+  max-height: 100vw; /* Ensures it doesn't exceed the container width */
 }
 
 .col>img {
@@ -118,7 +117,6 @@
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
-
 
 @media (min-width: 1440px) {
   .fc {
