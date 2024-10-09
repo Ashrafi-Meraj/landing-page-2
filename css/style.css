@@ -151,7 +151,7 @@
   }
 }
 
-@media (max-width: 435px) {
+@media (min-width: 275px) and (max-width: 435px) {
   .gradient-background {
     flex-wrap: wrap;
   }
@@ -183,5 +183,57 @@
   }
   .col1 {
     width: 100%;
+  }
+}
+
+@media (max-width: 275px){
+  .gradient-background {
+    gap: 0px 5px;
+  }
+  .fc {
+    font-size: 0.5rem;
+    font-weight: 700;
+    text-align: center;
+    width: 40%;
+    margin: 0;
+    padding: 0;
+    flex-shrink: 3;
+  }
+  .btn {
+    font-size: 0.5rem;
+    /* height: 0.7rem; */
+    width: 30vw;
+    padding: 0;
+    margin: 0.2rem;
+    
+  }
+  .btn>svg {
+    height: 0.5rem;
+    width: 0.5rem;
+    margin-top: 3px !important;
+
+  }
+  .iphone {
+    height: 30vh;
+    margin: 0;
+  }
+  .col1{
+    width: 100%;
+  }
+  .col1>img {
+    height: 1rem;
+  }
+  .col2{
+    /* display: block !important; */
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center !important;
+  }
+  .col2>div{
+    margin: 0px !important;
+  }
+  .doggy>img {
+    height: 60px
   }
 }
