@@ -48,7 +48,7 @@
 }
 .iphone {
   height: 90vh;
-  max-width: 90%; /* Ensures it doesn't exceed the container width */
+  max-width: 66%; /* Ensures it doesn't exceed the container width */
   object-fit: cover;
 }
 
