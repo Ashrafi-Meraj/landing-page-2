@@ -49,7 +49,7 @@
 }
 .iphone {
   height: 90vh;
-  max-width: 50rem; /* Ensures it doesn't exceed the container width */
+  max-width: 30rem; /* Ensures it doesn't exceed the container width */
   object-fit: cover;
 }
 
